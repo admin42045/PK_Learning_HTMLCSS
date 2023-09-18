@@ -7,7 +7,7 @@
 
     <style>
         body{
-            background: #9e9d9d;
+            background: #bbbbbb;
         }
 ol{
     display: grid;
@@ -19,7 +19,6 @@ ol{
 
         ol > li {
            display: flex;
-           border: 1px solid black;
            padding: 0.4rem 0.8rem;
            width: 20vw;
            height: 20vh;
@@ -30,6 +29,12 @@ ol{
            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
            font-weight: 600;
            border-radius: 0.2rem;
+           box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.2);
+           
+        }
+        ol > li:hover{
+              border: 1px solid black;
+              box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.2);
         }
         li a {
             text-decoration: none;
